@@ -1,0 +1,11 @@
+* gulp-race
+ https://david-dm.org/shader/gulp-race.svg
+
+ gulp-race tracks how many tasks are currently running, and provides wrappers and hooks for delaying code until all of them are finished.
+
+** Usage
+
+** API
+
+** License
+   [[https://www.gnu.org/licenses/gpl.html][GPL v3.0]]

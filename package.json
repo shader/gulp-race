@@ -1,0 +1,30 @@
+{
+  "name": "gulp-race",
+  "version": "0.1.0",
+  "description": "A gulp plugin for preventing race conditions and running code after all tasks have finished",
+  "main": "index.js",
+  "scripts": {
+    "test": "$(npm bin)/mocha",
+    "prepublish": "$(npm bin)/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shader/gulp-race.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Samuel Christie",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/shader/gulp-race/issues"
+  },
+  "homepage": "https://github.com/shader/gulp-race#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "map-stream": "0.0.6"
+  }
+}
